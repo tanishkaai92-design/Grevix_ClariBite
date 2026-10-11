@@ -1,0 +1,20 @@
+https://claribite-pure-pulse.base44.app
+
+API Documentation 
+## Authentication
+
+```bash
+npm install @base44/sdk
+```
+
+```javascript
+import { createClient } from '@base44/sdk';
+
+const base44 = createClient({
+  appId: "6acb7ace61e857d64007802e",
+  headers: {
+    "Authorization": "Bearer YOUR_PERSONAL_ACCESS_TOKEN"
+  }
+});
+```
+
